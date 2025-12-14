@@ -1,0 +1,684 @@
+Background 0.050876 0.050876 0.050876
+AmbientLight 0.1 0.1 0.1
+
+Camera MainCamera
+location 20.000000 -20.000000 20.000000
+gaze -0.612372 0.612372 -0.500000
+focal_length 35.000000
+sensor_width 36.000000
+sensor_height 24.000000
+resolution 1920 1080
+shutter_speed 0.050000
+camera_velocity 0.500000 -0.300000 0.200000
+end
+
+PointLight PointLight
+location 5.000000 -5.000000 15.000000
+intensity 5000.000000
+radius 0.500000
+end
+
+Sphere Sphere_00_gradient_sky
+location -6.476241 7.988403 5.535996
+radius 1.206236
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.256796
+refractivity 0.089916
+roughness 0.771495
+ior 1.398413
+shininess 53.019115
+end
+
+Sphere Sphere_01_noise_texture
+location 14.381815 -12.634398 0.999075
+radius 1.839795
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.282565
+refractivity 0.062972
+roughness 0.193105
+ior 1.518002
+shininess 81.756960
+end
+
+Sphere Sphere_02_brick_wall
+location -12.046338 -5.287095 4.399035
+radius 1.114259
+color 0.800000 0.800000 0.800000
+texture brick_wall
+reflectivity 0.241217
+refractivity 0.040547
+roughness 0.572097
+ior 1.355128
+shininess 43.810634
+end
+
+Sphere Sphere_03_wood_texture
+location -9.021091 -8.707961 8.405336
+radius 1.152123
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.010248
+refractivity 0.045788
+roughness 0.752225
+ior 1.302912
+shininess 47.889142
+end
+
+Sphere Sphere_04_wood_texture
+location 11.236839 8.490722 1.863202
+radius 0.570425
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.032727
+refractivity 0.053518
+roughness 0.350126
+ior 1.545546
+shininess 76.568416
+end
+
+Sphere Sphere_05_wood_texture
+location -6.375145 13.871563 2.861311
+radius 1.594910
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.271947
+refractivity 0.090300
+roughness 0.505113
+ior 1.420154
+shininess 57.538312
+end
+
+Sphere Sphere_06_noise_texture
+location 13.893463 1.661419 9.524245
+radius 1.550427
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.264027
+refractivity 0.010370
+roughness 0.191886
+ior 1.509707
+shininess 39.283845
+end
+
+Sphere Sphere_07_noise_texture
+location 5.650034 10.538270 2.729465
+radius 1.055762
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.264933
+refractivity 0.039227
+roughness 0.325406
+ior 1.421503
+shininess 54.132898
+end
+
+Sphere Sphere_08_gradient_sky
+location 0.584905 5.942418 1.506026
+radius 0.748685
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.115170
+refractivity 0.058666
+roughness 0.454649
+ior 1.691825
+shininess 55.531727
+end
+
+Sphere Sphere_09_wood_texture
+location -13.409201 0.677487 5.828167
+radius 1.990285
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.060790
+refractivity 0.043296
+roughness 0.347944
+ior 1.372873
+shininess 88.543615
+end
+
+Sphere Sphere_10_wood_texture
+location 9.359275 -0.568861 6.741419
+radius 1.350268
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.055929
+refractivity 0.084711
+roughness 0.534545
+ior 1.402728
+shininess 38.524473
+end
+
+Sphere Sphere_11_gradient_sky
+location 9.501666 10.313132 6.468747
+radius 0.950766
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.032927
+refractivity 0.065076
+roughness 0.657275
+ior 1.649692
+shininess 72.518413
+end
+
+Sphere Sphere_12_wood_texture
+location -4.172691 5.628217 6.949173
+radius 1.733024
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.209988
+refractivity 0.094500
+roughness 0.386940
+ior 1.406580
+shininess 35.026656
+end
+
+Sphere Sphere_13_gradient_sky
+location -9.257282 -3.851021 9.386436
+radius 1.837160
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.097287
+refractivity 0.095400
+roughness 0.601437
+ior 1.534958
+shininess 81.864627
+end
+
+Sphere Sphere_14_noise_texture
+location -3.632987 -9.987963 1.278155
+radius 1.728299
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.226894
+refractivity 0.071580
+roughness 0.575059
+ior 1.554840
+shininess 74.538666
+end
+
+Cube Cube_00_gradient_sky
+translation -6.489827 5.383903 5.952051
+rotation 0.043756 0.232214 0.134537
+size 1.542292 2.373166 1.498662
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.228049
+refractivity 0.126010
+roughness 0.671406
+ior 1.761462
+shininess 29.818658
+end
+
+Cube Cube_01_rainbow_stripes
+translation -10.854684 4.305974 5.853678
+rotation 0.166863 0.258339 0.239536
+size 2.978960 1.542413 1.923839
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.099676
+refractivity 0.101259
+roughness 0.654766
+ior 1.436762
+shininess 66.693790
+end
+
+Cube Cube_02_wood_texture
+translation -7.653020 -7.047700 3.639428
+rotation 0.222058 0.048518 0.074484
+size 2.952781 1.765263 2.259539
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.055544
+refractivity 0.020294
+roughness 0.271887
+ior 1.689498
+shininess 51.371017
+end
+
+Cube Cube_03_wood_texture
+translation -1.260895 -7.732418 0.543929
+rotation 0.002267 0.205559 0.037595
+size 1.069107 2.344443 1.442518
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.231077
+refractivity 0.122555
+roughness 0.331753
+ior 1.600817
+shininess 38.930746
+end
+
+Cube Cube_04_brick_wall
+translation -3.530247 -7.089562 0.880770
+rotation 0.129900 0.260468 0.175087
+size 2.820378 1.168837 1.769682
+color 0.800000 0.800000 0.800000
+texture brick_wall
+reflectivity 0.133731
+refractivity 0.069162
+roughness 0.791450
+ior 1.407738
+shininess 97.818788
+end
+
+Cube Cube_05_gradient_sky
+translation -2.227106 8.079958 6.039552
+rotation 0.225582 0.044761 0.049528
+size 2.726393 2.265827 2.400822
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.197683
+refractivity 0.125938
+roughness 0.778369
+ior 1.692739
+shininess 53.346872
+end
+
+Cube Cube_06_noise_texture
+translation -2.199493 5.130351 0.740169
+rotation 0.086754 0.199565 0.046629
+size 2.409619 1.471283 2.964052
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.036108
+refractivity 0.017282
+roughness 0.286358
+ior 1.686329
+shininess 50.754769
+end
+
+Cube Cube_07_rainbow_stripes
+translation -8.182116 9.462614 1.851092
+rotation 0.222319 0.031140 0.138019
+size 1.055342 1.442596 2.156949
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.017686
+refractivity 0.004813
+roughness 0.790257
+ior 1.596364
+shininess 32.889562
+end
+
+Cube Cube_08_rainbow_stripes
+translation 7.193484 -8.947335 7.482961
+rotation 0.249444 0.009613 0.035331
+size 1.340648 1.306057 2.244586
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.057471
+refractivity 0.065572
+roughness 0.731730
+ior 1.690848
+shininess 79.238634
+end
+
+Cube Cube_09_rainbow_stripes
+translation -11.542070 0.089696 4.837728
+rotation 0.237752 0.115156 0.016365
+size 2.706448 1.704816 1.887453
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.150480
+refractivity 0.135793
+roughness 0.753757
+ior 1.501726
+shininess 97.961582
+end
+
+Cube Cube_10_checkerboard
+translation 4.515415 -0.226745 7.870868
+rotation 0.190017 0.052370 0.201207
+size 2.249932 1.505413 2.411969
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.202779
+refractivity 0.124124
+roughness 0.365369
+ior 1.768184
+shininess 40.733566
+end
+
+Cube Cube_11_noise_texture
+translation 3.460189 -10.347497 4.951231
+rotation 0.132336 0.247397 0.162891
+size 1.004500 1.119615 2.008930
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.154145
+refractivity 0.039318
+roughness 0.871526
+ior 1.590831
+shininess 71.289213
+end
+
+Cube Cube_12_gradient_sky
+translation 7.290964 10.941023 4.729062
+rotation 0.016962 0.220450 0.172383
+size 2.758651 2.030205 2.646875
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.098174
+refractivity 0.072681
+roughness 0.686859
+ior 1.634685
+shininess 52.156991
+end
+
+Cube Cube_13_checkerboard
+translation 4.918213 -7.064159 5.394655
+rotation 0.100917 0.212626 0.057904
+size 2.895352 1.438115 1.503074
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.123299
+refractivity 0.111360
+roughness 0.502121
+ior 1.547038
+shininess 43.878209
+end
+
+Cube Cube_14_rainbow_stripes
+translation -1.647089 -2.472215 3.999352
+rotation 0.003945 0.198745 0.097105
+size 1.321094 2.129655 1.560185
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.191811
+refractivity 0.068550
+roughness 0.544549
+ior 1.775516
+shininess 65.685447
+end
+
+Cube Cube_15_brick_wall
+translation 0.951716 -2.448668 4.499576
+rotation 0.217292 0.120989 0.067827
+size 2.871788 2.359824 1.263273
+color 0.800000 0.800000 0.800000
+texture brick_wall
+reflectivity 0.077862
+refractivity 0.068263
+roughness 0.323053
+ior 1.686935
+shininess 49.326340
+end
+
+Cube Cube_16_wood_texture
+translation 8.020222 -2.690245 5.760290
+rotation 0.250250 0.113211 0.062957
+size 1.343275 1.761634 2.858596
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.208122
+refractivity 0.110648
+roughness 0.894664
+ior 1.571106
+shininess 94.307208
+end
+
+Cube Cube_17_noise_texture
+translation -2.281727 5.298620 3.686402
+rotation 0.249913 0.124324 0.011024
+size 1.168172 1.311428 1.829471
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.101876
+refractivity 0.113777
+roughness 0.480950
+ior 1.518457
+shininess 96.102302
+end
+
+Cube Cube_18_checkerboard
+translation 4.257987 -6.286928 6.594478
+rotation 0.098887 0.072621 0.141017
+size 1.006412 2.105089 2.644469
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.138548
+refractivity 0.035060
+roughness 0.828612
+ior 1.524767
+shininess 47.677378
+end
+
+Cube Cube_19_checkerboard
+translation -4.277964 8.886250 5.770035
+rotation 0.092511 0.127907 0.148472
+size 2.429274 1.158004 1.837497
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.132478
+refractivity 0.127066
+roughness 0.697222
+ior 1.584170
+shininess 66.464616
+end
+
+Plane GroundPlane
+corner1 -25.000000 -25.000000 -2.000000
+corner2 -25.000000 25.000000 -2.000000
+corner3 25.000000 25.000000 -2.000000
+corner4 25.000000 -25.000000 -2.000000
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.000000
+refractivity 0.000000
+roughness 0.500000
+ior 1.500000
+shininess 10.000000
+end
+
+Plane Plane_00_wood_texture
+corner1 -0.892174 -0.050935 4.916914
+corner2 -1.593784 4.229286 5.456330
+corner3 -1.593784 4.229286 5.456330
+corner4 -0.892174 -0.050935 4.916914
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.151834
+refractivity 0.006038
+roughness 0.497296
+ior 1.586217
+shininess 96.235073
+end
+
+Plane Plane_01_noise_texture
+corner1 1.001080 0.164348 6.442675
+corner2 -0.638553 9.921100 2.165641
+corner3 -0.638553 9.921100 2.165641
+corner4 1.001080 0.164348 6.442675
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.073281
+refractivity 0.006922
+roughness 0.496124
+ior 1.441961
+shininess 84.908994
+end
+
+Plane Plane_02_wood_texture
+corner1 -4.561339 -5.646982 3.151070
+corner2 -3.976171 0.203614 -1.270301
+corner3 1.889437 2.492319 2.534549
+corner4 1.304269 -3.358277 6.955921
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.162242
+refractivity 0.023476
+roughness 0.359126
+ior 1.532395
+shininess 20.310617
+end
+
+Plane Plane_03_checkerboard
+corner1 -0.398443 3.191966 3.337691
+corner2 -1.037424 6.827301 3.130548
+corner3 2.362683 7.498260 4.417383
+corner4 3.001665 3.862926 4.624525
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.120584
+refractivity 0.025135
+roughness 0.632491
+ior 1.533350
+shininess 56.075968
+end
+
+Plane Plane_04_gradient_sky
+corner1 0.588462 4.590168 7.800126
+corner2 -1.292037 7.020793 5.590146
+corner3 1.989857 8.298142 4.202424
+corner4 3.870356 5.867517 6.412403
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.030832
+refractivity 0.027323
+roughness 0.843127
+ior 1.568965
+shininess 22.985376
+end
+
+Plane Plane_05_checkerboard
+corner1 -2.060692 -3.613223 9.450974
+corner2 -4.764097 1.052646 9.446967
+corner3 -4.762358 1.049022 4.054498
+corner4 -2.058954 -3.616847 4.058505
+color 0.800000 0.800000 0.800000
+texture checkerboard
+reflectivity 0.170239
+refractivity 0.029427
+roughness 0.446350
+ior 1.449043
+shininess 27.102225
+end
+
+Plane Plane_06_wood_texture
+corner1 -4.772138 -2.003661 -0.665477
+corner2 -4.923865 1.764225 5.365642
+corner3 2.187034 1.912810 5.451708
+corner4 2.338763 -1.855076 -0.579411
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.128381
+refractivity 0.023544
+roughness 0.850474
+ior 1.497397
+shininess 64.543261
+end
+
+Plane Plane_07_gradient_sky
+corner1 -11.587264 5.613378 4.548484
+corner2 -11.587264 5.613378 4.548484
+corner3 -5.971560 4.458041 4.230822
+corner4 -5.971560 4.458041 4.230822
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.199916
+refractivity 0.032048
+roughness 0.861819
+ior 1.424576
+shininess 88.552287
+end
+
+Plane Plane_08_wood_texture
+corner1 -6.321651 2.167047 8.182052
+corner2 -10.727420 8.300253 6.567833
+corner3 -4.390194 12.480810 5.155303
+corner4 0.015574 6.347603 6.769523
+color 0.800000 0.800000 0.800000
+texture wood_texture
+reflectivity 0.115722
+refractivity 0.025711
+roughness 0.477021
+ior 1.467148
+shininess 68.325256
+end
+
+Plane Plane_09_gradient_sky
+corner1 3.961062 -0.899490 0.056386
+corner2 7.844583 3.320583 3.829989
+corner3 12.730389 -1.489460 4.181008
+corner4 8.846868 -5.709533 0.407406
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.127702
+refractivity 0.012418
+roughness 0.773818
+ior 1.427155
+shininess 59.313368
+end
+
+Plane Plane_10_gradient_sky
+corner1 -12.172572 -1.920877 2.346876
+corner2 -12.172572 -1.920877 2.346876
+corner3 -6.408431 -0.619481 2.248524
+corner4 -6.408431 -0.619481 2.248524
+color 0.800000 0.800000 0.800000
+texture gradient_sky
+reflectivity 0.101023
+refractivity 0.034180
+roughness 0.386573
+ior 1.501966
+shininess 23.488356
+end
+
+Plane Plane_11_rainbow_stripes
+corner1 4.991063 -9.662992 3.647524
+corner2 4.548487 -5.498537 2.516138
+corner3 4.548487 -5.498537 2.516138
+corner4 4.991063 -9.662992 3.647524
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.192789
+refractivity 0.026366
+roughness 0.661260
+ior 1.426958
+shininess 94.283875
+end
+
+Plane Plane_12_brick_wall
+corner1 -3.002620 -2.354235 5.213171
+corner2 -1.503792 1.296432 5.774576
+corner3 1.284114 -0.219158 8.186960
+corner4 -0.214714 -3.869825 7.625555
+color 0.800000 0.800000 0.800000
+texture brick_wall
+reflectivity 0.156366
+refractivity 0.046588
+roughness 0.426346
+ior 1.442486
+shininess 21.650952
+end
+
+Plane Plane_13_noise_texture
+corner1 4.814728 -3.997257 6.593236
+corner2 3.977819 -3.154380 2.154169
+corner3 8.488541 -3.261278 1.283453
+corner4 9.325449 -4.104156 5.722521
+color 0.800000 0.800000 0.800000
+texture noise_texture
+reflectivity 0.165825
+refractivity 0.028788
+roughness 0.516367
+ior 1.566575
+shininess 51.589096
+end
+
+Plane Plane_14_rainbow_stripes
+corner1 -7.005878 -4.933483 5.425608
+corner2 -4.323779 -0.737053 5.832662
+corner3 -0.762089 -3.250408 8.275362
+corner4 -3.444188 -7.446837 7.868308
+color 0.800000 0.800000 0.800000
+texture rainbow_stripes
+reflectivity 0.182805
+refractivity 0.022439
+roughness 0.505134
+ior 1.477522
+shininess 83.612984
+end
+
