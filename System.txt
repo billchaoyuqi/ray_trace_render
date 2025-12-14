@@ -1,0 +1,2 @@
+Windows 10
+g++ (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r1) 15.2.0

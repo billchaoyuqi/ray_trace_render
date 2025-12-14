@@ -1,0 +1,84 @@
+==========================
+ Feature List - Ray Tracer
+==========================
+
+Exam No.: B283619
+Project: Ray Tracer
+Date: <4.12.2025>
+
+--------------------------------------
+ 1. Module 1 - Scene & Camera System
+--------------------------------------
+
+[1.1] Blender Exporter (Python)（Achieved）
+Export object details as a scene file in TXT format
+
+[1.2] Camera Space （Achieved）
+Camera-related capabilities have been implemented, 
+and coordinate transformation at the image level has been completed.
+
+[1.3] Image R/W（Achieved）
+Support for reading and writing PPM files has been implemented.
+Enables precise adjustment operations on individual pixels.
+
+--------------------------------------
+ 2. Module 2 - Geometry & Acceleration
+--------------------------------------
+
+[2.1] Ray Intersection（Part Achieved）
+Basic object implementation and intersection detection have been achieved, 
+though various object properties remain incomplete. 
+For instance, spherical deformation and full coordinate transformation for cubes are currently unavailable.
+
+[2.2] BVH Acceleration（Achieved）
+BVH node construction
+AABB computation
+Ray–AABB intersection
+The acceleration effect is also reflected in subsequent features.
+--------------------------------------
+ 3. Module 3 - Whitted-style Ray Tracing
+--------------------------------------
+
+[3.1] Whitted-style（Part Achieved）
+Preliminary implementation of shadow effects such as reflections and refractions has been achieved, 
+but further refinement is required.
+The code will be merged with subsequent distributed ray tracing efforts.
+
+[3.2] Antialiasing（Achieved）
+Multiple sampling is implemented for each pixel.
+Rendering time has increased significantly.
+
+[3.3] Textures（Part Achieved）
+Currently, only textures partially present in the file can be loaded.
+The placement of textures within Blender remains subject to debate.
+
+
+--------------------------------------
+ 4. Final Ray Tracer
+--------------------------------------
+[4.1]Sys. Integration（Part Achieved）
+Preliminary integration has been achieved, supporting command-line operations.
+Modularity and scalability still require improvement.
+
+[4.2]Distributed RT（Part Achieved）
+The distributed ray tracing component is partially complete, 
+currently implementing soft shadow sampling and integrated lighting effects.
+The number of samples can be adjusted, but this significantly impacts runtime performance.
+Optimization will be considered in subsequent iterations.
+
+[4.3]Lens effect（Part Achieved）
+Basic lens effects have been implemented.
+Depth-of-field blur and lens motion blur are now available.
+Motion blur for objects remains unimplemented; optimization can be considered in future iterations.
+
+--------------------------------------
+ 5. Additional Instructions for Use
+--------------------------------------
+Usage: D:\c++project\graphic_cw\build\graphic_cw.exe [options]
+Options:
+  --bvh / --no-bvh     Enable/disable BVH acceleration
+  --motion-blur        Enable motion blur effects
+  --distributed        Enable distributed rendering with soft shadows
+  --shadow-samples N   Number of shadow samples (default: 4)
+  --help               Show this help message
+
